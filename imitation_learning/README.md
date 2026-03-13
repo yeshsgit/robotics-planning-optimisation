@@ -8,7 +8,7 @@ This folder contains code and resources for training diffusion-based imitation l
 /imitation_learning
     /data
         /demonstrations/      # Rollouts generated from the PPO policy
-        /huggingface/         # Datasets downloaded from HuggingFace (gitignored)
+        /huggingface/         # Datasets downloaded from HuggingFace
         README.md
     /checkpoints
         /ppo_g1/              # Pretrained PPO checkpoint
