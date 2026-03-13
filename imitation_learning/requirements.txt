@@ -3,3 +3,4 @@ numpy==2.4.3
 mujoco==3.6.0
 playground==0.1.0
 pyarrow==23.0.1
+jupyter==1.1.1
