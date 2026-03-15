@@ -1,0 +1,16 @@
+{
+  "demo_path": "./data/demonstrations/g1_walking/demos.npy",
+  "meta_path": "./data/demonstrations/g1_walking/meta.npy",
+  "save_dir": "./checkpoints/bc_g1",
+  "train_ratio": 0.9,
+  "seed": 42,
+  "epochs": 100,
+  "batch_size": 1024,
+  "lr": 0.001,
+  "weight_decay": 1e-05,
+  "hidden_dim": 256,
+  "num_layers": 3,
+  "dropout": 0.0,
+  "patience": 15,
+  "grad_clip": 1.0
+}
