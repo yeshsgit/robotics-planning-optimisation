@@ -1,0 +1,80 @@
+{
+  "env_name": "G1JoystickFlatTerrain",
+  "max_steps": 1000,
+  "ppo": {
+    "method": "PPO",
+    "survival_steps": 1000,
+    "survival_time_sec": 20.0,
+    "initial_position_xyz": [
+      -0.09024280309677124,
+      0.04670756310224533,
+      0.8030725121498108
+    ],
+    "final_position_xyz": [
+      -10.532208442687988,
+      13.174416542053223,
+      0.796721875667572
+    ],
+    "world_displacement_xyz": [
+      -10.441965639591217,
+      13.127708978950977,
+      -0.0063506364822387695
+    ],
+    "world_x_displacement": -10.441965639591217,
+    "world_y_displacement": 13.127708978950977,
+    "forward_progress_initial_heading": 16.485481244698505,
+    "lateral_offset_initial_heading": 3.098434699187238,
+    "path_length_xy": 17.350830938125362,
+    "net_displacement_xy": 16.774128575113334,
+    "straightness_ratio": 0.9667622625643347,
+    "body_forward_velocity_mean": 0.8633478020960669,
+    "body_forward_velocity_std": 0.13505523247293597,
+    "body_lateral_velocity_abs_mean": 0.061256037054589735,
+    "torso_height_mean": 0.7994179175496101,
+    "torso_height_std": 0.007691724689738999,
+    "roll_abs_mean": 0.02895809556508018,
+    "pitch_abs_mean": 0.03299234421202402,
+    "yaw_rel_abs_mean": 0.22460155242222501,
+    "yaw_rel_final": 0.49201159988770105,
+    "action_l2_mean": 1.6272398509132342,
+    "action_delta_l2_mean": 1.0053720345218942
+  },
+  "bc": {
+    "method": "BC",
+    "survival_steps": 1000,
+    "survival_time_sec": 20.0,
+    "initial_position_xyz": [
+      -0.09060261398553848,
+      0.04750426486134529,
+      0.8037972450256348
+    ],
+    "final_position_xyz": [
+      -5.696194648742676,
+      16.272417068481445,
+      0.7956758737564087
+    ],
+    "world_displacement_xyz": [
+      -5.605592034757137,
+      16.2249128036201,
+      -0.008121371269226074
+    ],
+    "world_x_displacement": -5.605592034757137,
+    "world_y_displacement": 16.2249128036201,
+    "forward_progress_initial_heading": 16.96934984109208,
+    "lateral_offset_initial_heading": -2.590680126112902,
+    "path_length_xy": 17.35488276327031,
+    "net_displacement_xy": 17.165968004898765,
+    "straightness_ratio": 0.9891146047513866,
+    "body_forward_velocity_mean": 0.8638820586323862,
+    "body_forward_velocity_std": 0.13402077038152757,
+    "body_lateral_velocity_abs_mean": 0.06035855749572845,
+    "torso_height_mean": 0.7987201363444328,
+    "torso_height_std": 0.007905440460230303,
+    "roll_abs_mean": 0.031627756870526186,
+    "pitch_abs_mean": 0.03414887640668779,
+    "yaw_rel_abs_mean": 0.1641209081784721,
+    "yaw_rel_final": -0.20126562716604202,
+    "action_l2_mean": 1.6215081693757503,
+    "action_delta_l2_mean": 0.9742883779625056
+  }
+}

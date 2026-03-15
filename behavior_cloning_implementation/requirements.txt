@@ -1,0 +1,6 @@
+pandas==2.3.3
+numpy==2.2.6
+mujoco==3.6.0
+playground==0.1.0
+pyarrow==23.0.1
+jupyter==1.1.1
